@@ -1,0 +1,75 @@
+#create a list
+student_list=["janvi","yashi","lavanya","rujula"]
+print(student_list:"student_list)
+student_list.append("rohan")
+print(student_list)
+student_list.remove("lavanya)
+print(student_list)
+student_list=["janvi","yashi","lavanya","rujula"]
+student_list.pop(1)
+print(student_list)
+del student_list[3]
+print(student_list)
+student_list[2]="shreya"
+print(student_list)
+
+
+#create a tuple
+student_tuple=("janvi","yashi","lavanya","rujula")
+print("student_tuple:"student_tuple")
+y=list(student_tuple)
+y.append("rohan")
+y.append("himesh")
+y.append("karan")
+student_tuple=tuple(Y)
+print(student_tuple)
+y=("riley")
+student_tuple+=y
+print(student_tuple)
+y=list(student_tuple)
+y.remove("janvi")
+y.remove("lavanya")
+student_tuple=tuple(Y)
+print(student_tuple)
+
+
+
+#creating a dictionary
+student={"name" = "rahul"
+          "age" = "19"
+          "course" = "computer engineering"}
+
+  print("original dictionary:",student)
+
+  # add a new key-value pair
+    student["city"]="pune"
+    print("after adding city:", student)
+
+  # access a value 
+    print("student:", student["name"])
+
+  # get()
+print("course:", student("course"))
+
+  # keys() 
+    print("keys:", student.key())
+
+  # values()
+     print("values:", student.values())
+
+  # items()
+      print("items:", student.item())
+
+  # pop()
+    remove = student.pop("city")
+    print("remove value:", remove)
+    print("ater pop:", student)
+
+   # check whether a key exists 
+     print("is 'name' present?", "name" in student)
+
+   # length
+     print("length of dictionary:", len(student))
+
+    
+
